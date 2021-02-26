@@ -33,7 +33,7 @@ WebUI.click(findTestObject('99 All/sign In'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('99 All/filter'), 'WorldCheck')
+WebUI.setText(findTestObject('99 All/filter'), 'Check')
 
 WebUI.delay(2)
 

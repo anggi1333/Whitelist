@@ -33,15 +33,15 @@ WebUI.click(findTestObject('99 All/sign In'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('99 All/filter'), 'TOT')
+WebUI.setText(findTestObject('99 All/filter'), 'PROLI')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('View/4'))
+WebUI.click(findTestObject('View/5'))
 
 WebUI.delay(2)
 
-WebUI.uploadFile(findTestObject('Upload/1 Browse'), 'D:\\WL\\DTOT.xlsx')
+WebUI.uploadFile(findTestObject('Upload/1 Browse'), 'D:\\WL\\INDIVIDUAL.xlsx')
 
 WebUI.click(findTestObject('Upload/3 Inport'))
 
